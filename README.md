@@ -55,12 +55,33 @@ python learning.py
 python test.py
 ```
 
+## Example 'test.py' output (may vary due to sampling):
+
+
+```text
+Loaded checkpoint: last_model.pt
+Prompt: "The "
+Max new tokens: 200
+
+Generated text:
+The gage to be the very content.--Is never
+Of it booking and let frame what I would I seize your house,
+Sirrah is much until. But, be removed knowledge:
+The queen I send to heaven and his son,
+Or, the war
+```
+
 ## Notes
 
 - Model checkpoint example: `last_model.pt`
 - Main model implementation is in `model.py`
 - Tokenization is character-level (`tokenizer.py`)
+- Code comments in Russian
+- Parameters: ~1.2M
+- Type: Character-level causal Transformer
+- last_model.pt was trained for 1 epoch
+- Dataset: tiny_shakespeare
+
 
 ## License
-
-This project is distributed under the terms of
+MIT
